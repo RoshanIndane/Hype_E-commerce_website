@@ -22,7 +22,6 @@ const Products = ({ cat, filter, sort }) => {
   const [filteredProducts, setfilteredProducts] = useState([])
 
   useEffect(() => {
-
     const getProducts = async () => {
       try {
         const res = await axios.get(cat ? `https://hypee-1.herokuapp.com/api/products?category=${cat}` : "https://hypee-1.herokuapp.com/api/products");

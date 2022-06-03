@@ -150,3 +150,6 @@ export const Payment = () => {
     </div>
   )
 }
+
+
+
