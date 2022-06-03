@@ -68,8 +68,7 @@ const Checkout = () => {
                     className="form-control"
                     id="firstName"
                     placeholder=""
-                    value=""
-                    required=""
+                    
                   />
                   <div className="invalid-feedback">
                     Valid first name is required.
@@ -85,8 +84,7 @@ const Checkout = () => {
                     className="form-control"
                     id="lastName"
                     placeholder=""
-                    value=""
-                    required=""
+                    
                   />
                   <div className="invalid-feedback">
                     Valid last name is required.

@@ -79,7 +79,7 @@ export const Payment = () => {
                     Credit card number
                   </label>
                   <input
-                    type="text"
+                    type="Number"
                     className="form-control"
                     id="cc-number"
                     placeholder=""
@@ -95,7 +95,7 @@ export const Payment = () => {
                     Expiration
                   </label>
                   <input
-                    type="text"
+                    type="String"
                     className="form-control"
                     id="cc-expiration"
                     placeholder=""
@@ -109,7 +109,7 @@ export const Payment = () => {
                     CVV
                   </label>
                   <input
-                    type="text"
+                    type="number"
                     className="form-control"
                     id="cc-cvv"
                     placeholder=""
