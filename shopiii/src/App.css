@@ -1,0 +1,57 @@
+.payment{
+    text-align: center;
+  }
+  
+  .plus{
+    background-color: transparent;
+    border-radius: 20%;
+  }
+  
+  .paydiv{
+    height: 600px;
+    width: 70%;
+    
+  }
+  
+  #mypay{
+    margin-top: 2%;
+    margin-bottom: 9%;
+    font-size: 33px;
+  }
+  
+  .paymentBox{
+    margin: auto;
+    padding: 2% 4%;
+    width: 30%;
+    height: 530px;
+    margin-top: 2%;
+    text-align: center;
+    
+  }
+  
+  #paymentBtn{
+    margin-top: 5%;
+    padding: 3% 15%;
+    margin: auto;
+    background-color:transparent;
+    color: black;
+    border: 1px solid black;
+    
+    
+  }
+  #paymentBtn:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+  }
+  .paySuccess{
+    width: 60%;
+    margin: auto;
+    height: 500px;
+    margin-top: 1%;
+  
+  
+  }
+  #bt{
+    text-align: center;
+    
+  }
